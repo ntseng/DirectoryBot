@@ -29,7 +29,7 @@ function creditsBuilder(footerURL, locale) {
 		.addField(getString(locale, command.module, "localization"), `Mnemmy (fr), towoko (de), Lille (de)`)
 		.addField(`Embed Thumbnails`, `[game-icons.net](https://game-icons.net/)`)
 		.addField(`\u200B`, getString(locale, command.module, "patronsDescription"))
-		.addField(getString(locale, command.module, "grandArchivistTier"), "Victor Huang", false)
+		.addField(getString(locale, command.module, "archivistTier"), "Victor Huang", false)
 		.addField(getString(locale, command.module, "cartographerTier"), `Ralph Beish`, false)
 		.addField(getString(locale, command.module, "explorerTier"), `Eric Hu`, false)
 		.setFooter(getString(locale, "DirectoryBot", "footerText"), footerURL)
